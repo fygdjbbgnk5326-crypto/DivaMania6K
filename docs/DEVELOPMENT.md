@@ -1,10 +1,10 @@
-# DivaMania6K Live View 0.2.17
+# DivaMania6K Live View v1.0
 
 Windows x64 原生六轨视图插件，使用 DivaModLoader 的 D3D11 回调。
 
 ## 使用
 
-安装在游戏 mods/DivaMania6K 下，config.toml 引用 DivaMania6K-0.2.17.dll。正常退出并重新启动游戏后生效，不支持热加载。
+安装在游戏 mods/DivaMania6K 下，config.toml 引用 DivaMania6K-1.0.dll。正常退出并重新启动游戏后生效，不支持热加载。
 
 - 菜单默认隐藏，进入歌曲显示 6K LIVE，暂停显示 PAUSED。
 - 六轨顺序：S 左滑 / D ←（□） / F ↑（△） / J ↓（×） / K →（○） / L 右滑。

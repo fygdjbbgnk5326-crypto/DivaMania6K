@@ -408,7 +408,7 @@ extern "C" __declspec(dllexport) void Init() {
     HMODULE self=nullptr;wchar_t path[32768]{};
     if(GetModuleHandleExW(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS|GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT,reinterpret_cast<LPCWSTR>(&Init),&self)&&GetModuleFileNameW(self,path,32768))root=std::filesystem::path(path).parent_path();
     LoadSettings();game.Initialize();
-    Log("Init v0.2.17: visible HOLD end caps and offscreen tail countdowns; display only");
+    Log("Init v1.0: visible HOLD end caps and offscreen tail countdowns; display only");
     Log(game.State().event.c_str());
 }
 #ifdef DIVAMANIA_TEST

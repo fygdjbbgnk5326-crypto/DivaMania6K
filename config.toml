@@ -1,7 +1,7 @@
 enabled = true
-dll = ["DivaMania6K-0.2.17.dll"]
+dll = ["DivaMania6K-1.0.dll"]
 name = "DivaMania6K Live View"
 description = "Real chart, game clock, combo and judgement. F8 toggle; F9 reload Player.ini."
-version = "0.2.17"
+version = "1.0"
 date = "01.11.2026"
 author = "Local prototype"
